@@ -28,6 +28,8 @@ function App() {
         </a>
       </header>
       <Header/>
+      
+      
       <div className="cards">
         <Card imgsrc={process.env.PUBLIC_URL + "images/image1.jpg"} description={s1} title={title} process={<SweetPotato/>}/>
         <Card imgsrc={process.env.PUBLIC_URL + "images/image2.jpg"} description={s2} title={title2} process={<Soup/>} />
